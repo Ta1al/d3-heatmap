@@ -3,6 +3,7 @@ body {
   color: white;
   text-align: center;
   overflow: visible;
+  padding-top: 10vh;
 }
 
 svg {
