@@ -1,0 +1,47 @@
+body {
+  background-color: darkslategrey;
+  color: white;
+  text-align: center;
+  overflow: visible;
+}
+
+svg {
+  overflow: visible;
+}
+
+.cell:hover {
+  fill: white;
+  stroke: black;
+  stroke-width: 1px;
+
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.heatmap {
+  background-color: #fff;
+}
+
+#legend {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
